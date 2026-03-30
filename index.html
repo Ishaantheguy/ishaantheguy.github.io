@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishaan Sheth | ishaantheguy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Ishaantheguy</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="YOUR_EXTERNAL_LINK_HERE" target="_blank" rel="noopener noreferrer" class="nav-highlight">Writeups</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="terminal-prompt">&gt; whoami</p>
+                <h1 class="hero-title">Ishaan Sheth</h1>
+                <h2 class="hero-subtitle">Systems Hacker & Kernel Researcher</h2>
+                <p class="hero-desc">
+                    Exploiting systems from Ring 3 to Ring 0. Primarily focused on Linux kernel internals and reverse engineering, with cross-platform expertise in Android and foundational Windows user-space architecture.
+                </p>
+                <div class="hero-buttons">
+                    <a href="Resources/CV_Ishaan_Sheth.pdf" download="CV.pdf" class="btn btn-primary">
+                        <i class="fas fa-file-download"></i> Download CV
+                    </a>
+                    <a href="https://github.com/Ishaantheguy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/ishaan-sheth-98881a2a1/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container">
+                <div class="profile-glow"></div>
+                <img src="profile.jpg" alt="Ishaan Sheth" class="profile-pic" onerror="this.src='Resources/avatar.png'">
+            </div>
+        </div>
+    </section>
+
+   <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-heading"><span>00.</span> Background</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I am a third-year engineering student at Dwarkadas J. Sanghvi College of Engineering, maintaining a 9.46 CGPA. My journey in cybersecurity started with web vulnerabilities and CTFs, but my true passion lies in the architecture that runs beneath it all.
+                    </p>
+                    <p>
+                        I have completed an Industry Internship at Deloitte and a Research Internship at VJTI, diving deep into reverse engineering using Ghidra and IDA. My primary research and exploitation focus is on <strong>Linux systems and kernel internals</strong>. However, my offensive security capabilities are cross-platform, backed by a strong working knowledge of Android architectures and basic user-level Windows fundamentals.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <i class="fas fa-university"></i>
+                        <h3>D.J. Sanghvi COE</h3>
+                        <p>Computer Engineering</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>9.46 CGPA</h3>
+                        <p>Academic Standing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="expertise-section">
+        <div class="container">
+            <h2 class="section-heading"><span>01.</span> Core Expertise</h2>
+            <div class="expertise-grid">
+                
+                <div class="expertise-card">
+                    <i class="fab fa-linux exp-icon"></i>
+                    <h3>Linux Kernel Exploitation</h3>
+                    <p>Primary focus on Ring 0 vulnerabilities, Local Privilege Escalation (LPE), kernel module analysis, and advanced memory/page table manipulation within custom Linux environments.</p>
+                    <div class="exp-tags"><span>pwn</span><span>C</span><span>Kernel</span><span>GDB</span></div>
+                </div>
+
+                <div class="expertise-card">
+                    <i class="fab fa-android exp-icon"></i>
+                    <h3>Android Security & RE</h3>
+                    <p>Decompiling and reverse engineering applications. Proficient in dynamic instrumentation, analyzing Dalvik bytecode, bypassing root detection, and exploiting native JNI libraries.</p>
+                    <div class="exp-tags"><span>Frida</span><span>Smali</span><span>Jadx</span><span>Gephi</span></div>
+                </div>
+
+                <div class="expertise-card">
+                    <i class="fab fa-windows exp-icon"></i>
+                    <h3>Windows Fundamentals</h3>
+                    <p>Solid understanding of Windows user-space architecture and the PE file format. Experience with basic reverse engineering of Windows binaries and WinAPI analysis (focused entirely on user-land, pre-kernel level).</p>
+                    <div class="exp-tags"><span>PE Analysis</span><span>WinAPI</span><span>User-land</span></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-heading"><span>02.</span> Learning Trajectory</h2>
+            <div class="timeline-container">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Present</div>
+                    <div class="timeline-content">
+                        <h3>Kernel & Low-Level Exploitation</h3>
+                        <p>Currently researching Windows and linux drivers at a lower level and diving deep into Kernel exploitation, IOCTL, and Native APIs.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Reverse Engineering & Linux</h3>
+                        <p>Switched completely to Linux (Kali and later Arch). Completed a Research Internship at VJTI in Reverse Engineering and built a web server entirely in x86 Assembly. Mastered tools like Ghidra and IDA.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Cybersecurity & Networks</h3>
+                        <p>Familiarized myself with network hacking tools like Scapy, tshark, and Netcat. Gained certifications in Cryptography, Hashing, and Ethical Hacking via Udemy.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Foundations & Web Dev</h3>
+                        <p>Started delving into computers and programming. Became a Certified Developer in JavaScript, HTML, and CSS. Developed a strong grasp of C programming and Cookie Management.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research-section">
+        <div class="container">
+            <h2 class="section-heading"><span>03.</span> Core Projects</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-microchip project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/Ishaantheguy/Meltdown-attack" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Meltdown & Page Table Walking</h3>
+                    <p class="project-desc">
+                        Exploited speculative execution to bypass kernel isolation. Wrote a C tool to manually translate 4-level x86 page tables via side-channels to steal protected memory.
+                    </p>
+                    <ul class="project-tech">
+                        <li>C</li>
+                        <li>Assembly</li>
+                        <li>x86 Architecture</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-server project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/Ishaantheguy/web_server-x86-64-architecture-"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">x86 Assembly Web Server</h3>
+                    <p class="project-desc">
+                        Built a fully functional HTTP server from scratch using pure Intel syntax assembly, handling raw socket connections and GET/POST parsing without high-level abstractions.
+                    </p>
+                    <ul class="project-tech">
+                        <li>x86 Assembly</li>
+                        <li>Linux Syscalls</li>
+                        <li>Networking</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-bolt project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/Ishaantheguy/Prefetch" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Microarchitecture Prefetch Attack</h3>
+                    <p class="project-desc">
+                        Developed a microarchitectural side-channel exploit targeting CPU prefetch mechanisms. Utilized precise timing analysis in C to infer access patterns and leak memory states.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Side-Channel Analysis</li>
+                        <li>C</li>
+                        <li>CPU Internals</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications-section">
+        <div class="container">
+            <h2 class="section-heading"><span>04.</span> Publications & Papers</h2>
+            <div class="pub-list">
+                
+                <div class="pub-card">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-info">
+                        <h3>QVeriSign</h3>
+                        <p class="pub-venue">Cryptographic Protocol</p>
+                        <p class="pub-desc">A highly secure cryptographic protocol leveraging the no-cloning theorem, quantum tokens, and the SWAP test to ensure unforgeable data integrity.</p>
+                    </div>
+                    <span style="font-size: 0.85rem; color: #a1a1aa; font-style: italic; margin-top: 0.5rem; display: block;">Expected Publication: Fall 2026</span>
+                </div>
+
+                <div class="pub-card">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-info">
+                        <h3>Quality Analysis of Borewell Water</h3>
+                        <p class="pub-venue">AI-ML, IOT</p>
+                        <p class="pub-desc">A comprehensive research paper detailing the physical, chemical, and biological quality parameters and safety of borewell water sources.</p>
+                    </div>
+                    <a href="https://www.researchgate.net/publication/400467685_Quality_analysis_of_borewell_water" class="pub-link"><i class="fas fa-external-link-alt"></i> View Paper</a>
+                </div>
+
+                <div class="pub-card">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-info">
+                        <h3>Option pricing prediction using XAI</h3>
+                        <p class="pub-venue">AI-ML, Finance</p>
+                        <p class="pub-desc">We use different ML models to predict Option prices and XAI techniques to explain how the predictions were made</p>
+                    </div>
+                    <span style="font-size: 0.85rem; color: #a1a1aa; font-style: italic; margin-top: 0.5rem; display: block;">Expected Publication: Fall 2026</span>
+                </div>
+
+                <div class="pub-card">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-info">
+                        <h3>CVE-id risk scoring</h3>
+                        <p class="pub-venue">Cybersecurity, AI-ML</p>
+                        <p class="pub-desc">Make use of existing CVE's(Common Vulnerabilities and Exposures) to predict vulnerabilities in a system</p>
+                    </div>
+                    <span style="font-size: 0.85rem; color: #a1a1aa; font-style: italic; margin-top: 0.5rem; display: block;">Expected Publication: Fall 2026</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-socials">
+                <a href="https://github.com/Ishaantheguy" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ishaan-sheth-98881a2a1/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
